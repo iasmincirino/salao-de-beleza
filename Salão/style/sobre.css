@@ -1,6 +1,6 @@
 .Sobre{
     background: #f5daef;
-    padding: 45px;
+    padding: 40px;
 }
 
 .card-sobre h2{
@@ -45,12 +45,26 @@
 }
 
 @media (max-width: 800px){
+    .Sobre{
+        padding: 30px;
+    }
+    
     .txtSobre{
         font-size: 15px;
         float: left;
     }
 
     .card-sobre{
-        max-width: 400px;
+        max-width: 250px;
+        padding-right: 0;
+    }
+
+    .imgso{
+        height: 130px;
+    }
+
+    .txtSobre{
+        width: 200px;
+        font-size: 13px;
     }
 }
