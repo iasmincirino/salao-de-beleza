@@ -1,0 +1,56 @@
+.Sobre{
+    background: #f5daef;
+    padding: 45px;
+}
+
+.card-sobre h2{
+    color: #8f3b62;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.card-sobre{
+    width: 80%;
+    min-height: 100px;
+    max-width: 650px;
+    padding: 1rem 1rem;
+    margin: 1rem auto;
+    background: #f8eaf3;
+    box-shadow: 5px 5px 5px #0006;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    display: table;
+}
+
+.imgSobre{
+    display: table-cell;
+    float: left;
+}
+
+.imgso{
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+.txtSobre{
+    font-size: 15px;
+    display: table-cell;
+    float: right;
+    width: 300px;
+    padding-left: 13px;
+    font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 800px){
+    .txtSobre{
+        font-size: 15px;
+        float: left;
+    }
+
+    .card-sobre{
+        max-width: 400px;
+    }
+}

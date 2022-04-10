@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.slider{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #f7caed;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: #fff;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.slider .card .img{
+  height: 150px;
+  width: 100%;
+}
+
+.slider .card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.slider .card .content{
+  padding: 10px 20px;
+}
+
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Dancing Script', cursive;
+  color: #8f3b62;
+}
+  
+.card .content p{
+  font-family: Poppins, sans-serif;
+}
+
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.card .content .btn button{
+  background: #c16690;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card .content .btn button:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  background: #ca6896;
+}
